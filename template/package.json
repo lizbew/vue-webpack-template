@@ -1,12 +1,12 @@
 {
-  "name": "vue-webpack-template",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "simple template project use vue and webpack",
+  "description": "{{ description }}",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --no-info",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "author": "Vika Zhou",
+  "author": "{{ author }}",
   "license": "MIT",
   "dependencies": {
     "vue": "^1.0.25",

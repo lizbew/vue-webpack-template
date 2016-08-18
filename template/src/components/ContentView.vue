@@ -1,7 +1,7 @@
 <template>
 <div id="content">
 <h4>Some Title Here</h4>
-<p>{{ content }}</p>
+<p>\{{ content }}</p>
 </div>
 </template>
 

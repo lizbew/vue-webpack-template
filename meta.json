@@ -1,0 +1,20 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Project Name"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "Project Description",
+      "default": "A Vue.js project"
+    },
+    "author": {
+      "type": "string",
+      "required": true,
+      "label": "Author"
+    }
+  }
+}
